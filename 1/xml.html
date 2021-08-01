@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>AJAX</title>
+</head>
+
+<body>
+    <div>
+
+        <a class="ancbtny" href="./index1.html">Home
+        </a>
+        <a class="ancbtn" href="https://www.w3.org/XML/">Learn XML 📕</a>
+    </div>
+    <br>
+    <br>
+    <div class="mui-col-md-6 tutorial-content" style="min-height: 1843px;">
+        <h1>XML - Overview</h1>
+        <hr>
+        <div id="google-top-ads">
+            <div class="top-ad-heading">Advertisements</div>
+            <div style="text-align:center" class="google-top-ads">
+                <div id="adp_top_ads" style="text-align:center!important;min-height:90px!important">
+                    <div id="8014640d-fd34-4b2e-9b1b-cc67234a2325" class="_ap_apex_ad"></div>
+                </div>
+                <script>
+                    var adPos = document.getElementById('adp_top_ads');
+                    var ad_id_720 = "8014640d-fd34-4b2e-9b1b-cc67234a2325";
+                    var ad_id_650 = "2d1bb2c4-eb72-471d-9c80-1bf5514728c1";
+                    var ad_id_300 = "df94a1a9-ae2f-432d-9a92-d93823ff4503";
+                    var width = window.innerWidth;
+                    var ad_id = ad_id_720;
+                    if (width <= 768) {
+                        ad_id = ad_id_300;
+                    } else if (width <= 1435) {
+                        ad_id = ad_id_650;
+                    }
+                    adPos.innerHTML = '<div id="' + ad_id + '" class="_ap_apex_ad"></div>';
+                    var adpushup = adpushup || {};
+                    adpushup.que = adpushup.que || [];
+                    adpushup.que.push(function () {
+                        adpushup.triggerAd(ad_id);
+                    });
+                </script>
+            </div>
+        </div>
+        <br>
+
+        <div class="clearer"></div>
+        <p>XML stands for <b>E</b>xtensible <b>M</b>arkup <b>L</b>anguage. It is a text-based markup language derived
+            from
+            Standard Generalized Markup Language (SGML).</p>
+        <p>XML tags identify the data and are used to store and organize the data, rather than specifying how to display
+            it
+            like HTML tags, which are used to display the data. XML is not going to replace HTML in the near future, but
+            it
+            introduces new possibilities by adopting many successful features of HTML.</p>
+        <p>There are three important characteristics of XML that make it useful in a variety of systems and solutions −
+        </p>
+        <ul class="list">
+            <li>
+                <p><b>XML is extensible</b> − XML allows you to create your own self-descriptive tags, or language, that
+                    suits your application.</p>
+            </li>
+            <li>
+                <p><b>XML carries the data, does not present it</b> − XML allows you to store the data irrespective of
+                    how
+                    it will be presented.</p>
+            </li>
+            <li>
+                <p><b>XML is a public standard</b> − XML was developed by an organization called the World Wide Web
+                    Consortium (W3C) and is available as an open standard.</p>
+            </li>
+        </ul>
+        <h2>XML Usage</h2>
+        <p>A short list of XML usage says it all −</p>
+        <ul class="list">
+            <li>
+                <p>XML can work behind the scene to simplify the creation of HTML documents for large web sites.</p>
+            </li>
+            <li>
+                <p>XML can be used to exchange the information between organizations and systems.</p>
+            </li>
+            <li>
+                <p>XML can be used for offloading and reloading of databases.</p>
+            </li>
+            <li>
+                <p>XML can be used to store and arrange the data, which can customize your data handling needs.</p>
+            </li>
+            <li>
+                <p>XML can easily be merged with style sheets to create almost any desired output.</p>
+            </li>
+            <li>
+                <p>Virtually, any type of data can be expressed as an XML document.</p>
+            </li>
+        </ul>
+        <h2>What is Markup?</h2>
+        <p>XML is a markup language that defines set of rules for encoding documents in a format that is both
+            human-readable
+            and machine-readable. So <i>what exactly is a markup language?</i> Markup is information added to a document
+            that enhances its meaning in certain ways, in that it identifies the parts and how they relate to each
+            other.
+            More specifically, a markup language is a set of symbols that can be placed in the text of a document to
+            demarcate and label the parts of that document.</p>
+        <p>Following example shows how XML markup looks, when embedded in a piece of text −</p>
+        <pre class="prettyprint notranslate prettyprinted" style=""><span class="tag">&lt;message&gt;</span><span class="pln">
+           </span><span class="tag">&lt;text&gt;</span><span class="pln">Hello, world!</span><span class="tag">&lt;/text&gt;</span><span class="pln">
+        </span><span class="tag">&lt;/message&gt;</span></pre>
+        <p>This snippet includes the markup symbols, or the tags such as &lt;message&gt;...&lt;/message&gt; and
+            &lt;text&gt;... &lt;/text&gt;. The tags &lt;message&gt; and &lt;/message&gt; mark the start and the end of
+            the
+            XML code fragment. The tags &lt;text&gt; and &lt;/text&gt; surround the text Hello, world!.</p>
+        <h2>Is XML a Programming Language?</h2>
+        <p>A programming language consists of grammar rules and its own vocabulary which is used
+            to create computer programs. These programs instruct the computer to perform specific tasks. XML does not
+            qualify to be a programming language as it does not perform any computation or algorithms. It is usually
+            stored
+            in a simple text file and is processed by special software that is capable of interpreting XML.</p>
+
+        <div class="space-bottom" style="margin-bottom:20px;"></div>
+    </div>
+</body>
+
+</html>
